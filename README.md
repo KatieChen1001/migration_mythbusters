@@ -6,18 +6,14 @@ This project aims to debunk common myths and misconceptions surrounding Central 
 
 We believe in making this project engaging and educational for users. As part of the interactive experience, we encourage users to actively participate by estimating answers to questions related to Central American migration before revealing the actual data. This feature helps challenge preconceived notions and fosters a deeper understanding of the topic.
 
-- [How It Works](#how-it-works)
+- [Live Demo](#live-demo)
 - [Data Sources](#data-sources)
 - [Acknowledgments](#acknowledgement)
 - [Technologies Used](#technologies-used)
 
-## How It Works:
+## Live Demo
 
-1. **Estimate**: At various points in the story, users will encounter questions or statements related to Central American migration myths or facts. They will have the opportunity to provide their own estimates or opinions before seeing the data.
-
-2. **Compare**: After making their estimations, users can compare their guesses to the actual data visualizations presented in the story. This interactive element aims to spark curiosity and self-reflection, encouraging users to rethink their initial assumptions.
-
-We believe that involving users in this way adds an educational and thought-provoking dimension to the project, making it a valuable tool for raising awareness and dispelling misconceptions about Central American migration.
+[Migration-Mythbusters](https://migration-mythbusters.netlify.app/)
 
 ## Data Sources
 
