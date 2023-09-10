@@ -1,38 +1,34 @@
-# create-svelte
+# Interactive Data Visualization Story: Debunking Central American Migration Myths
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Overview
 
-## Creating a project
+This project aims to debunk common myths and misconceptions surrounding Central American migration through an interactive data visualization story. By combining data-driven visualizations with informative narratives, we hope to shed light on the realities of migration from Central America. 
 
-If you're seeing this, you've probably already done this step. Congrats!
+We believe in making this project engaging and educational for users. As part of the interactive experience, we encourage users to actively participate by estimating answers to questions related to Central American migration before revealing the actual data. This feature helps challenge preconceived notions and fosters a deeper understanding of the topic.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- [How It Works](#how-it-works)
+- [Data Sources](#data-sources)
+- [Acknowledgments](#acknowledgement)
+- [Technologies Used](#technologies-used)
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## How It Works:
 
-## Developing
+1. **Estimate**: At various points in the story, users will encounter questions or statements related to Central American migration myths or facts. They will have the opportunity to provide their own estimates or opinions before seeing the data.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+2. **Compare**: After making their estimations, users can compare their guesses to the actual data visualizations presented in the story. This interactive element aims to spark curiosity and self-reflection, encouraging users to rethink their initial assumptions.
 
-```bash
-npm run dev
+We believe that involving users in this way adds an educational and thought-provoking dimension to the project, making it a valuable tool for raising awareness and dispelling misconceptions about Central American migration.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Data Sources
 
-## Building
+Survey data from El Salvador, Guatemala, and Honduras collected by World Food Programme (WFP). 
 
-To create a production version of your app:
+## Acknowledgement
 
-```bash
-npm run build
-```
+We are grateful to have had the opportunity to work with MIT Civic Design Data Lab and the World Food Programme on this project, with special thanks to our sponsor at WFP.
 
-You can preview the production build with `npm run preview`.
+Raw data has been destroyed upon completion of the project. For a comprehensive detailed report of this dataset, please visit the [Migration Policy Institute](https://www.migrationpolicy.org/research/motivations-costs-central-american-migration) website. 
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Technologies Used
+
+svelte.js | D3.js 
